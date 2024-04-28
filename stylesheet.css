@@ -1,0 +1,53 @@
+:root {
+    --background: #002024;
+    --tert-accent: #538b92;
+    --sec-accent: #90c5cc;
+    --prim-accent: #b5d9d6;
+    --font-color: #E3FEF7;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 750px;
+    min-width: 600px;
+    margin: 50px auto 50px auto;
+    background: var(--background);
+}
+
+h1, h2, h3 {
+    color: var(--font-color);
+}
+
+h3, h4 {
+    color: var(--prim-accent);
+    margin-top: 5px;
+}
+
+p, li {
+    color: var(--sec-accent);
+}
+
+a:link {
+    color:var(--font-color);
+}
+
+a:visited {
+    color: var(--tert-accent);
+}
+
+.comp-loc-date {
+    color: var(--tert-accent);
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.job-title-top {
+    margin-bottom: 2px;
+}
+
+.job-title {
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+
+
